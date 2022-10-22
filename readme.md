@@ -3,6 +3,7 @@
 - Khorova Anna
 - Esipova Anna
 - Denis Rozhkov
+- Dolgopolova Alina
 - Gaverdovskaya Polina
 
 Business case:
