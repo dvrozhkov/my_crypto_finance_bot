@@ -1,7 +1,7 @@
 import telebot
 import read
 
-API_KEY = "5625623461:AAGwRUOdjpRmeFXaGi9DUDkg4NyCWDWbkVY"
+API_KEY = "your token"
 bot = telebot.TeleBot(API_KEY)
 
 @bot.message_handler(commands=['start'])
