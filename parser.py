@@ -90,7 +90,7 @@ def parse_all_crypto_pages():
                 if "Сейчас в обороте" not in ke:
                     new_crypto_set[i].more_info[ke] = q[1].text.strip("\n").strip("\r").lstrip(" ").rstrip(" ")
 
-        print(new_crypto_set[i].more_info)
+        #print(new_crypto_set[i].more_info)
 
         #i.more_info.append(data3[0].find("td").text.strip("\n").strip("\r").lstrip(" ").rstrip(" "))
         #i.more_info.append(data3[1].find_all("td")[1].text.strip("\n").strip("\r"))
@@ -115,4 +115,4 @@ def parse_all_crypto_pages():
             f_out.write(f"{k}:{v};")
         f_out.write("\n")
 
-parse_all_crypto_pages()
+#parse_all_crypto_pages()
